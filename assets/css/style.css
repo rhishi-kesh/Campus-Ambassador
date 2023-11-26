@@ -1,6 +1,9 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 }
+.index{
+	background: #242424;
+}
 .school{
 	font-family: 'Caveat', cursive !important;
 }
@@ -385,5 +388,26 @@ footer .footer-icons a{
 		border-right: 15px solid #fff;
 		border-left: 0;
 		left: -15px;
+	}
+}
+@media screen and (max-width: 991px){
+	.index section{
+		height: 50vh;
+	}
+	.myCarousel .carousel-item{
+		height: 50vh !important;
+		background-position: 90%;
+	}
+	.navbar-dark .navbar-nav .custom-btn {
+	  padding: 8px 20px;
+	}
+	.about{
+		padding: 50px 0;
+	}
+	.school .myCarousel .carousel-item{
+		background-position: 90%;
+	}
+	.school .myCarousel .item-2{
+		background-position: 84%;
 	}
 }
