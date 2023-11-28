@@ -5,10 +5,10 @@ body{
 	background: #242424;
 }
 .school{
-	font-family: 'Caveat', cursive !important;
+	font-family: 'Playpen Sans', cursive;
 }
 .school p{
-	font-size: 20px;
+	/*font-size: 20px;*/
 }
 .school .myCarousel .carousel-item{
 	background: url('../img/school-1.jpeg');
@@ -55,6 +55,10 @@ h2{
 	background: #FDFF00;
 	display: block;
 	margin-top: 18px;
+}
+.custom-card-title{
+	font-size: 1.3rem !important;
+	font-weight: 600;
 }
 .custom-btn{
 	text-decoration: none;
@@ -395,7 +399,7 @@ footer .footer-icons a{
 		height: 50vh;
 	}
 	.myCarousel .carousel-item{
-		height: 50vh !important;
+		height: 30vh !important;
 		background-position: 90%;
 	}
 	.navbar-dark .navbar-nav .custom-btn {
