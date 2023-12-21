@@ -7,17 +7,59 @@ body{
 .school{
 	font-family: 'Playpen Sans', cursive;
 }
+.diploma{
+	font-family: 'Titillium Web', sans-serif;
+}
+.collage{
+	font-family: 'Karla', sans-serif;
+}
+.success{
+	background: #FDFF00;
+	color: #000;
+	display: inline-block !important;
+  	padding: 8px;
+}
+.error{
+	background: #FDFF00;
+	color: #000;
+	display: inline-block !important;
+  	padding: 9px;
+}
 .school p{
 	/*font-size: 20px;*/
 }
 .school .myCarousel .carousel-item{
-	background: url('../img/school-1.jpeg');
+	background: url('../img/school-2.jpeg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 10%;
 }
 .school .myCarousel .item-2{
-	background: url('../img/school-2.jpeg');
+	background: url('../img/school-1.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 10%;
+}
+.collage .myCarousel .carousel-item{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../img/college-1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 10%;
+}
+.collage .myCarousel .item-2{
+	background: url('../img/2.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 10%;
+}
+.diploma .myCarousel .carousel-item{
+	background: url('../img/diploma-2.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 10%;
+}
+.diploma .myCarousel .item-2{
+	background: url('../img/diploma-1.jpeg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 10%;
@@ -45,6 +87,17 @@ h2{
 	width: 100px;
 	height: 3px;
 	background: #FDFF00;
+	display: block;
+	margin: auto;
+	margin-top: 18px;
+}
+.working_with h2{
+	color: #000;
+}
+.title-border-dark{
+	width: 100px;
+	height: 3px;
+	background: #000;
 	display: block;
 	margin: auto;
 	margin-top: 18px;
@@ -82,6 +135,9 @@ h2{
 	justify-content: center;
 	align-items: center;
 	background-color: #242424;
+}
+.index .working_with{
+	background-color: #fff !important;
 }
 .index section .card{
 	background: transparent;
@@ -135,6 +191,11 @@ nav ul li .custom-btn:hover{
 .about{
 	background: #242424;
 	padding: 80px 0;
+}
+.about img{
+	max-width: 60%;
+	display: block;
+  	margin: auto;
 }
 .get{
 	background: #3A486F;
@@ -396,7 +457,12 @@ footer .footer-icons a{
 }
 @media screen and (max-width: 991px){
 	.index section{
-		height: 50vh;
+		height: 70vh;
+	}
+	.index footer{
+		position: relative;
+		bottom: 0;
+		left: 0
 	}
 	.myCarousel .carousel-item{
 		height: 30vh !important;
